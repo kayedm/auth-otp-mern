@@ -28,4 +28,4 @@ Use npm install to install dependancies
 Run the server with : npm run server
 Run the client with : npm run dev
 
-Change .env in client to your localhost/port
+Change .env in /client to your localhost/port
