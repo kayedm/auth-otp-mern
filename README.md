@@ -9,7 +9,8 @@ Built with MongoDB, Express.js, React, and Node.js.
 - User registration & login  
 - Email OTP verification  
 - Password reset with OTP  
-- JWT-based auth with cookies  
+- JWT-based auth with cookies
+- Sends welcome email on signup
 
 ![App Screenshot](https://github.com/user-attachments/assets/750cad9d-8a99-4507-b4cf-0d6f49bf0983)
 
