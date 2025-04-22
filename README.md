@@ -5,4 +5,4 @@ Built with MongoDB, Express.js, React, and Node.js.
 <br>
 <br>
 
-![Untitled-1](https://github.com/user-attachments/assets/b9e0da8e-efdd-42cc-affa-1a8b64a04aa9)
+![Untitled-1](https://github.com/user-attachments/assets/8aa356a2-7be2-4e35-9bf7-46acf186e51c)
