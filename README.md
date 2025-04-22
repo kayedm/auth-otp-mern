@@ -32,7 +32,7 @@ Built with MongoDB, Express.js, React, and Node.js.
     SENDER_EMAIL=""
     ```
 
-2. Install backend dependencies:
+2. Install dependencies:
 
     ```bash
     cd server
@@ -55,7 +55,7 @@ Built with MongoDB, Express.js, React, and Node.js.
     VITE_BACKEND_URL=http://localhost:YOURPORTNUMBER
     ```
 
-2. Install frontend dependencies:
+2. Install dependencies:
 
     ```bash
     cd client
@@ -67,7 +67,5 @@ Built with MongoDB, Express.js, React, and Node.js.
     ```bash
     npm run dev
     ```
-
-Make sure the backend server is already running and reachable at the URL you configured above.
 
 ---
