@@ -302,7 +302,7 @@ export const sendResetOtp = async (req, res) => {
             });
         }
 
-        const otp = crypto.randomInt(100000, 999999).toString(); // Generate a random 4-digit OTP
+        const otp = crypto.randomInt(100000, 999999).toString(); // Generate a random 6-digit OTP
 
         user.resetOtp = otp;
         user.resetOtpExpireAt = Date.now() + 15 * 60 * 1000; // OTP expires in 15 minutes

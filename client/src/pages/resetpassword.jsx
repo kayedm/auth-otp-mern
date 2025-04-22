@@ -145,7 +145,7 @@ export default function ResetPassword() {
             {isEmailSent && !isOtpSubmitted && (
                 <form onSubmit={handleOtpSubmit} onPaste={handlePaste} className="bg-white p-10 rounded-lg shadow-lg w-full max-w-sm flex flex-col items-center gap-6">
                     <h1 className="text-4xl font-semibold text-center mb-4 text-black">Reset Password OTP</h1>
-                    <p className="text-center mb-6 text-black">Enter the 6-digit code sent to your email id.</p>
+                    <p className="text-center mb-6 text-black">Enter the 6-digit code sent to your email address.</p>
                     <div className="flex justify-between mb-8">
                         {values.map((v, i) => (
                             <input
