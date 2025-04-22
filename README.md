@@ -16,7 +16,7 @@ Built with MongoDB, Express.js, React, and Node.js.
 
 ## 🛠️ Setup Instructions
 
-###  Backend Setup
+###  Server Setup
 
 1. Create a `.env` file in `/server` with the following:
 
@@ -46,7 +46,7 @@ Built with MongoDB, Express.js, React, and Node.js.
 
 ---
 
-### Frontend Setup
+### Client Setup
 
 1. Create a `.env` file in `/client` with:
 
