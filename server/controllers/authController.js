@@ -118,7 +118,7 @@ export const login = async (req, res) => {
         res.cookie('token', token, {
             httpOnly: true,
             secure: isProd,
-            sameSite: isProd ? 'none' : 'lax',    // 'none' needed only when dev uses two ports
+            sameSite: isProd ? 'none' : 'lax',
             maxAge: 7 * 24 * 60 * 60 * 1000
         });
 
@@ -354,7 +354,7 @@ export const resetPassword = async (req, res) => {
             });
         }
 
-        if (user.resetOtpExpireAt.getTime < Date.now()) {
+        if (user.resetOtpExpireAt.getTime() < Date.now()) {
             return res.json({
                 success: false, message: "OTP expired",
             });
@@ -384,10 +384,9 @@ export const resetPassword = async (req, res) => {
 
 export const getUser = async (req, res) => {
     try {
-        // userAuth middleware should have set req.user.id
         const user = await UserModel
             .findById(req.user.id)
-            .select('-password');     // strip out the hash
+            .select('-password');
 
         if (!user) {
             return res
