@@ -1,5 +1,5 @@
 // scripts/genEthereal.js
-import nodemailer from 'nodemailer';
+import nodemailer from "nodemailer";
 
 async function makeTestAcct() {
   let testAccount = await nodemailer.createTestAccount();
